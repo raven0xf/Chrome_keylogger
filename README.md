@@ -1,15 +1,16 @@
 # Chrome_keylogger
 A keylogger that shares keystrokes over a local TCP connection.
 
-# How to attack:
+## How to attack:
 First of all, you can edit the code a bit and compile all the scripts into exe for less detection.
 
 Follow these steps:
-  1- The victim must run the client's script, when the file is ran, the keylogger and the TCP Client will start too. 
-  2- The attacker must run the server's script then bind the server's IP and port. 
-  3- The attacker will start receiving keystrokes from the victim's computer.
 
-# Deeper demonstration:
+  - The attacker must run the server script then bind the server's IP and port. 
+  - The victim must run the malware, as soon as the malware starts, the keylogger will start and the TCP client script will automatically connect to the TCP server.
+  - The attacker will start receiving keystrokes from the victim's computer.
+
+## Deeper demonstration:
 Attacker:
     
     attacker@kali:~$ python3 server.py
@@ -29,4 +30,4 @@ Attacker:
     
 Victim:
 
-    victim@kali:~$ python3 server.py    
+    victim@kali:~$ python3 program.py    
