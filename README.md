@@ -1,3 +1,10 @@
+# Important: 
+I wrote this code as a 13 year old kid, it's terrible, disorganized and clumsy. You could call it 'Spaghetti' code, for sure. 
+If you're interested in taking a look at the code, then just be careful as that might burn your eyes.
+Oh, and one more thing, *do not* use this tool to do devious and illegal things. Be safe kids!
+.
+.
+.
 # Chrome_keylogger
 A keylogger that shares keystrokes over a local TCP connection.
 
